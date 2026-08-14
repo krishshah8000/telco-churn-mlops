@@ -1,0 +1,39 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Generated models
+models/*.joblib
+models/*.pkl
+
+# Generated model metrics / promotion artifacts
+models/candidate_evaluation_metrics.json
+models/production_metrics.json
+models/promotion_record.json
+models/zenml_candidate_evaluation_metrics.json
+
+# Generated artifacts
+artifacts/
+
+# Local datasets
+data/raw/
+data/initial/
+data/new/
+data/held_out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store

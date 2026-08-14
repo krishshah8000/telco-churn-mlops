@@ -1,0 +1,10 @@
+{
+    "model_name": "production_model",
+    "metrics": {
+        "accuracy": 0.7707594038325053,
+        "precision": 0.5499021526418787,
+        "recall": 0.7513368983957219,
+        "f1_score": 0.6350282485875707,
+        "roc_auc": 0.8489653568937456
+    }
+}
