@@ -1,39 +1,51 @@
 # Python
-.venv/
 __pycache__/
-*.pyc
-.pytest_cache/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Environment / secrets
-.env
-*.env
+# Pytest
+.pytest_cache/
 
 # MLflow
 mlruns/
 mlflow.db
 
-# Generated models
-models/*.joblib
-models/*.pkl
-
-# Generated model metrics / promotion artifacts
-models/candidate_evaluation_metrics.json
-models/production_metrics.json
-models/promotion_record.json
-models/zenml_candidate_evaluation_metrics.json
+# ZenML
+.zen/
+zenml.db
 
 # Generated artifacts
 artifacts/
 
-# Local datasets
-data/raw/
-data/initial/
-data/new/
-data/held_out/
+# Trained models
+models/
 
-# Logs
-*.log
+# Monitoring generated files
+monitoring/*.log
+
+# Data
+data/new/*
+!data/new/
+!data/new/new_data.csv
 
 # OS files
 .DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.iml
