@@ -110,5 +110,5 @@ wcwidth==0.8.2
 Werkzeug==3.1.8
 xgboost==3.4.0
 yarl==1.24.5
-zenml==0.92.0
+zenml==0.96.2
 zipp==4.1.0
