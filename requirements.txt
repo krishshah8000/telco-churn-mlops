@@ -56,10 +56,10 @@ multidict==6.7.1
 narwhals==2.24.0
 numpy==2.5.2
 nvidia-nccl-cu13==2.31.2
-opentelemetry-api==1.44.0
-opentelemetry-proto==1.44.0
-opentelemetry-sdk==1.44.0
-opentelemetry-semantic-conventions==0.65b0
+opentelemetry-api==1.43.0
+opentelemetry-proto==1.43.0
+opentelemetry-sdk==1.43.0
+opentelemetry-semantic-conventions==0.64b0
 optuna==4.9.0
 packaging==26.3
 pandas==2.3.3
