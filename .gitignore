@@ -29,6 +29,9 @@ zenml.db
 
 # Generated artifacts
 artifacts/
+!artifacts/
+!artifacts/preprocessing/
+!artifacts/preprocessing/preprocessor.joblib
 
 # Trained models
 models/
